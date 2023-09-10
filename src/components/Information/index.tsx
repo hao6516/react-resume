@@ -4,7 +4,7 @@ export default function Information(props: any) {
     const information = props.information;
     return (
         <div>
-            {information.map(item => {
+            {information.map((item: any) => {
                 return (
                     <div>{item[0]}:{item[1]}</div>
                 )
