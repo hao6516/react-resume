@@ -3,9 +3,12 @@ import Template from "./views/Template"
 
 function App() {
   return (
-    <div className=''>
-      <Template />
-    </div>
+    <>
+
+      <div className='flex justify-center'>
+        <Template />
+      </div>
+    </>
   )
 }
 
